@@ -20,7 +20,7 @@ var contactData = [
             street: "Semi Truck Way",
             city: "Cybertron",
             state: "Planet",
-            zip: "100101010"
+            zip: "10011"
         }
     },
     {
@@ -55,7 +55,7 @@ var contactData = [
         address: {
             street: "75 Oak Street",
             city: "Pallet Town",
-            state: "Kanto",
+            state: "KT",
             zip: "54434"
         }
     },
@@ -114,8 +114,8 @@ var contactData = [
         status: "away",
         address: {
             street: "123 Street St",
-            city: "Thousand Oaks",
-            state: "CA",
+            city: "Reno",
+            state: "NV",
             zip: "90154"
         }
     },

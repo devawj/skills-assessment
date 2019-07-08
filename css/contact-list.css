@@ -12,9 +12,8 @@ tbody tr td:first-child:hover + .underlying {
     color: #f7fcfe;
     background-color: #616161;
     border-left-style: none;
-    z-index: 1;
     width: 155px;
-    height: 101px;
+    height: 91px;
     display: table-cell;
     position: absolute;
     overflow-y: scroll;
@@ -64,16 +63,13 @@ tr {
 
 tbody {
     overflow-y: scroll;
-    overflow-x: hidden;
-    height: 230px;
     overflow: scroll;
     overflow-x: hidden;
-    scrollbar-width: none;
     -ms-overflow-style: none;
     -moz-overflow-style: none;
     font-size: 12px;
     width: 274px;
-    height: 295px;
+    height: 275px;
     background-color: #000000;
 }
 
@@ -112,7 +108,7 @@ table tbody tr td:last-child {
 
 table {
     width: 275px;
-    height: 392px;
+    height: 100px;
     border-radius: 12px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
     background-color: #131313;
@@ -134,7 +130,6 @@ thead tr th, tfoot tr td {
 td {
     padding-right: 10px;
     padding-left: 10px;
-    height: 35px;
 }
 
 select {
@@ -194,15 +189,9 @@ div span {
     color: #f7fcfe;
     padding-top: 10px;
     padding-left: 10px;
-    width: 0px;
-    height: 0px;
     display: none;
 }
 
 .email {
     color: #00f6ff;
-}
-
-#contacts {
-    z-index: 0;
 }
