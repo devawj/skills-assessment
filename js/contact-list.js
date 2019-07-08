@@ -29,7 +29,6 @@ function getContactElement(nameElement, underlyingElement, infoElement, rowIndex
     return contactElement;
 }
 
-
 function getNameElement(contact, rowIndex) {
     var nameCell = document.createElement("td");
     nameCell.setAttribute("class", "contact-name");
