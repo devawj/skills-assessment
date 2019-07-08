@@ -67,6 +67,7 @@ tbody {
     overflow-x: hidden;
     -ms-overflow-style: none;
     -moz-overflow-style: none;
+    scrollbar-width: none;
     font-size: 12px;
     width: 274px;
     height: 275px;
