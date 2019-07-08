@@ -17,7 +17,6 @@ tbody tr td:first-child:hover + .underlying {
     display: table-cell;
     position: absolute;
     overflow-y: scroll;
-    display: block;
     scrollbar-width: none;
 }
 
