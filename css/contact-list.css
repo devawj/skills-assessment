@@ -18,6 +18,7 @@ tbody tr td:first-child:hover + .underlying {
     position: absolute;
     overflow-y: scroll;
     display: block;
+    scrollbar-width: none;
 }
 
 p {
