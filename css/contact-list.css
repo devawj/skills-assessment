@@ -1,0 +1,208 @@
+thead, tbody {
+    font-family: "Helvetica";
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+tbody tr td:first-child:hover {
+    background-color: #616161;
+}
+
+tbody tr td:first-child:hover + .underlying {
+    color: #f7fcfe;
+    background-color: #616161;
+    border-left-style: none;
+    z-index: 1;
+    width: 155px;
+    height: 101px;
+    display: table-cell;
+    position: absolute;
+    overflow-y: scroll;
+    display: block;
+}
+
+p {
+    color: #f7fcfe;
+}
+
+tr:nth-child(odd) {
+    background: #2121217F;
+}
+
+tr:nth-child(even) {
+    background: #212121FF;
+}
+
+table, tr, td, div, span {
+    border-style: none;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+table td + td {
+    border-left: 1px solid #13131399;
+}
+
+table tfoot tr{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 4px 2px -2px black;
+}
+
+thead, tbody, tr {
+  display:block;
+}
+
+span {
+    white-space: nowrap;
+}
+
+tr {
+  display: table;
+  table-layout: fixed;
+}
+
+tbody {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 230px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -moz-overflow-style: none;
+    font-size: 12px;
+    width: 274px;
+    height: 295px;
+    background-color: #000000;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+th {
+    border-style: none;
+}
+
+table thead tr{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 14px;
+    background-color: #21212199;
+}
+thead tr th {
+    width: 282px;
+    height: 55px;
+}
+
+table tbody tr {
+    font-size: 12px;
+    height: 35px;
+    width: 282px;
+}
+
+table tbody tr td:first-child {
+    width: 80px;
+}
+
+table tbody tr td:last-child {
+    color: #565656;
+}
+
+table {
+    width: 275px;
+    height: 392px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+    background-color: #131313;
+    border: 2px solid ;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+thead tr th, tfoot tr td {
+    border-style: none;
+    padding: 12px;
+    width: 282px;
+    white-space: nowrap;
+}
+
+td {
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 35px;
+}
+
+select {
+    border-collapse: collapse;
+    border-radius: 5px;
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div span {
+    padding-left: 10px;
+}
+
+.contact-info {
+    color: #565656;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.contact-online, .contact-offline, .contact-away {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.contact-online::before {
+    content: '';
+    width: 2.5px;
+    height: 2.5px;
+    border-radius: 6px;
+    background-color: #00ff1e;
+    border: 2px solid rgba(90,90,90,0);
+}
+
+.contact-offline::before {
+    content: '';
+    width: 2.5px;
+    height: 2.5px;
+    border-radius: 6px;
+    background-color: #ff0000;
+    border: 2px solid rgba(90,90,90,0);
+}
+
+.contact-away::before {
+    content: '';
+    width: 2.5px;
+    height: 2.5px;
+    border-radius: 6px;
+    background-color: #fffc00;
+    border: 2px solid rgba(90,90,90,0);
+}
+
+.underlying {
+    color: #f7fcfe;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+
+.email {
+    color: #00f6ff;
+}
+
+#contacts {
+    z-index: 0;
+}

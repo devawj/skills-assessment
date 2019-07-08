@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/contact-list.css">
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr class="contact-header">
+                    <th>Contacts</th>
+                </tr>
+            </thead>
+            <tbody id="contacts"></tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td>
+                        <select id="infoSelect" onchange="updateContactList()">
+                            <option value="0">Email Address</option>
+                            <option value="1">Phone Number</option>
+                        </select>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
+<script src='../js/contact-data.js'></script>
+<script src='../js/contact-list.js'></script>
